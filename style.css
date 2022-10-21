@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .bloc-lg {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 
 .container {
@@ -659,7 +660,9 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 60px;
+    text-align: center;
+    
 }
 
 .hero-bloc-text-sub {
@@ -682,7 +685,9 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .h1 {
@@ -723,11 +728,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white;
 }
 
 h4 {
-    color: #333333!important;
+    color: white;
 }
 
 .icons {
@@ -781,7 +786,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -824,11 +829,15 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta\ made\ sign.webp");
+    width: 100vw;
+    height: inherit;
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta\ made\ sign\ orange.webp");
+    width: 100vw;
+    height: inherit;
 }
 
 @media (max-width: 1024px) {
@@ -1045,4 +1054,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.sr-only {
+    position: absolute;
+    left: 0;
+    top: -500px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
